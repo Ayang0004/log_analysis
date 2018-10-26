@@ -1,0 +1,8 @@
+@namespace("rpc.service")
+protocol RpcSendHttpAppHost{
+import schema "HttpAppHost.avsc";
+void sendHttpAppHost(rpc.domain.HttpAppHost httpAppHost);
+void sendHahMap(map<rpc.domain.HttpAppHost> hahmap);
+
+
+}

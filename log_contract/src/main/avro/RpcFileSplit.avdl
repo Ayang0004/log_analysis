@@ -1,0 +1,6 @@
+@namespace("rpc.service")
+protocol RpcFileSplit{
+import schema "FileSplit.avsc";
+void sendFileSplit(rpc.domain.FileSplit fileSplit);
+
+}
